@@ -24,17 +24,15 @@ import Footer from "@/components/Common/Footer.vue";
 import GoTop from "@/components/Common/GoTop.vue";
 import Spinner from "@/components/Common/Spinner.vue";
 
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 export default {
   name: "Home",
   components: { Nav, BigLogo, Carousel, OrderPic, Footer, GoTop, Spinner },
 
   setup(props) {
-    var finish = ref(true);
-    console.log(finish);
+    const finish = ref(true);
     setTimeout(() => {
       finish.value = false;
-      console.log(finish);
     }, 3500);
     return { finish };
   },
