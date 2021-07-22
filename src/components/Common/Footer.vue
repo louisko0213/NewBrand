@@ -61,7 +61,6 @@ export default {};
 //   border-top: 1px solid rgb(177, 177, 177);
 // }
 #content {
-  margin-top: 80px;
   border-top: 1px solid rgb(224, 224, 224);
   width: 100%;
   display: flex;

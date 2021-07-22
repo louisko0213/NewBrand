@@ -109,6 +109,7 @@ export default {
         background: rgb(82, 82, 82);
         border: 0;
         margin: 5px 0;
+        cursor: pointer;
       }
     }
     > hr {
@@ -127,11 +128,13 @@ export default {
           height: 35px;
           width: 45%;
           margin: 5px 0;
+          cursor: pointer;
         }
         > #cart {
           height: 35px;
           width: 45%;
           margin: 5px 0 5px 10%;
+          cursor: pointer;
         }
       }
     }

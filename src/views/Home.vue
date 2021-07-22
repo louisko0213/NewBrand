@@ -8,7 +8,7 @@
       <BigLogo id="big" />
       <Carousel id="carousel" />
       <OrderPic />
-      <Footer />
+      <Footer id="foot" />
       <GoTop />
     </div>
   </div>
@@ -47,5 +47,8 @@ export default {
   margin-top: 20px;
   position: relative;
   z-index: 1;
+}
+#foot {
+  margin-top: 80px;
 }
 </style>

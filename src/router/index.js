@@ -5,6 +5,7 @@ import Search from '../views/Search.vue'
 import Cart from '../views/Cart.vue'
 import Purchase from '../views/Purchase.vue'
 
+
 const routes = [
   {
     path: '/',
